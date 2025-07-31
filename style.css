@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    font-size: 24px;
+    color: #333;
+    flex-direction: row;
+    display: flex;
+}
+body {
+    background-color: #000000;
+
+}
+.hero {
+   color: #ffffff;
+   text-align: center;
+   padding: 30px;
+
+}
+.hero-wrapper {
+    background-image: url("./asset/image/japon-art-numerique-de-fond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 960px;
+}
+.hero h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgb(213, 185, 185);
+    margin-top: 40px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 20px;
+    background: rgb(58, 58, 58);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+h2 {
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(213, 185, 185);
+    text-align: center;
+    margin: 20px 0;
+}
+.slots-index  {
+  text-align: center;
+  color: #ffffff;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px rgb(213, 185, 185);
+}
+.slot-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: column;
+}
+.event {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-direction: row;
+
+}
+.footer {
+    background-color: rgb(21, 25, 39);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
