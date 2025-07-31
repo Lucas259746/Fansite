@@ -71,15 +71,18 @@ h2 {
 .events {
     display: flex;
     justify-content: center;
-    align-items: space-evenly;
+    align-items: center;
     flex-direction: column;
+    margin: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(213, 185, 185);
 }
 .event {
     display: flex;
-    justify-content: space-evenly;
-    align-items: space-evenly;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-
+    margin: 10px;
 }
 .footer {
     background-color: rgb(21, 25, 39);
